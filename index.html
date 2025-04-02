@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>互動選擇網頁</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 背景圖片容器 -->
+    <div id="background-container">
+        <img id="background-image" class="background-image" src="images/default-background.jpg" style="display: none;">
+        <img class="background-image" src="images/background1.jpg" style="display: none;">
+        <img class="background-image" src="images/background2.jpg" style="display: none;">
+        <img class="background-image" src="images/background3.jpg" style="display: none;">
+    </div>
+
+    <!-- 問題選項區 -->
+    <div id="question-container">
+        <h2 id="question"></h2>
+        <div id="options-top"></div>
+        <div id="options-middle"></div>
+        <div id="options-bottom"></div>
+    </div>
+
+    <!-- 產品展示區 -->
+    <div id="product-container" style="display: none;">
+    <h2 id="product-title"></h2>
+    <p id="click-hint" class="click-hint">點擊圖片了解更多</p>
+    <a id="product-link" href="" target="_blank">
+        <img id="product-image" src="" alt="Product Image">
+    </a>
+    <p id="product-description"></p>
+     <!-- 修改後的靜態購買連結按鈕 -->
+<table width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="margin: 25px auto; background: #ffffff; border: 1px solid #e0e0e0; border-radius: 8px;">
+  <tr>  
+    
+    <!-- 博客來 - 添加邊框強調 -->
+    <td width="175" align="center" valign="middle" style="border-left: 1px solid #f0f0f0;">
+      <a href="https://reurl.cc/zqMexy" target="_blank" style="display: block; padding: 10px 0;">
+        <img src="images/22.jpg" width="120" height="48" alt="博客來" style="display:block; border:1px solid #e74c3c; border-radius: 4px;">
+      </a>
+    </td>
+    
+    <!-- 誠品 - 添加邊框強調 -->
+    <td width="175" align="center" valign="middle" style="border-left: 1px solid #f0f0f0;">
+      <a href="https://reurl.cc/Gnom9y" target="_blank" style="display: block; padding: 10px 0;">
+        <img src="images/23.jpg" width="120" height="48" alt="誠品" style="display:block; border:1px solid #e74c3c; border-radius: 4px;">
+      </a>
+    </td>
+    
+    <!-- 蝦皮 - 添加邊框強調 -->
+    <td width="175" align="center" valign="middle" style="border-left: 1px solid #f0f0f0;">
+      <a href="https://reurl.cc/paWgOZ" target="_blank" style="display: block; padding: 10px 0;">
+        <img src="images/24.jpg" width="120" height="48" alt="蝦皮" style="display:block; border:1px solid #e74c3c; border-radius: 4px;">
+      </a>
+    </td>
+    
+    <!-- 晨星 - 添加邊框強調 -->
+    <td width="175" align="center" valign="middle" style="border-left: 1px solid #f0f0f0; border-radius: 0 8px 8px 0;">
+      <a href="https://reurl.cc/j9k8Np" target="_blank" style="display: block; padding: 10px 0;">
+        <img src="images/25.jpg" width="120" height="48" alt="晨星網路書店" style="display:block; border:1px solid #e74c3c; border-radius: 4px;">
+      </a>
+    </td>
+  </tr>
+</table>
+    <button onclick="restart()">重新開始</button>
+</div>
+
+    <!-- 引入 JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
