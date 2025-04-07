@@ -1,19 +1,19 @@
-﻿const questions = [
+const questions = [
     {
        question: "<span class='red-highlight'>你的安慰是良藥還是毒雞湯？</span><br><span style='font-size: 0.8em; color: #4B5563;'>——精神科醫師教你辨識真正的安慰智慧</span><br><br>當朋友遭遇重大打擊，你會？",
         options: [            
-            { text: "要不要我幫你安排心理諮商？", next: 1, score: 3 },
-            { text: "我不知道該說什麼，但我會在這裡陪你", next: 1, score: 5 },
-            { text: "時間會治癒一切傷痛", next: 1, score: 1 }
+            { text: "走，我帶你去吃大餐", next: 1, score: 3 },
+            { text: "這真的很難受，我完全理解你的痛苦", next: 1, score: 5 },
+            { text: "這沒什麼，時間會沖淡一切", next: 1, score: 1 }
         ],
         background: 'images/default-background.jpg'
     },
     {
-        question: "當面對無法用言語安慰的痛苦時，你會如何做？",
+        question: "當對方拒絕接受安慰時，你會？",
         options: [
-            { text: "保持沉默，因為說什麼都沒用", next:2, score: 1 },           
-            { text: "找出生活中微小美好的事物與對方分享", next: 2, score: 5 },
-            { text: "分享一個溫暖的擁抱或靜靜陪伴 ", next: 2, score: 3 }
+            { text: "覺得對方不知好歹，不再嘗試", next:2, score: 1 },           
+            { text: "我理解你現在不需要安慰，但我一直都在", next: 2, score: 5 },
+            { text: "持續表達關心但保持距離 ", next: 2, score: 3 }
         ],
         background: 'images/background1.jpg'
     },
@@ -21,26 +21,26 @@
         question: "當你無法解決他人的痛苦時，你會",
         options: [
             { text: "感到挫敗並保持距離", next: 3, score: 1 },
-            { text: "推薦其他專家協助", next: 3, score: 3 },
-            { text: "理解安慰不是修復，而是陪伴 ", next: 3, score: 5 }
+            { text: "換個方法繼續嘗試安慰", next: 3, score: 3 },
+            { text: "理解「陪伴本身就是療癒」 ", next: 3, score: 5 }
         ],
         background: 'images/background2.jpg'
     },
    {
         question: "面對長期痛苦的人，你傾向？",
         options: [
-            { text: "成為他與世界保持連結的那條紅線", next: 4, score: 5 },
-            { text: "穩定耐心的陪伴", next: 4, score: 3 },
-            { text: "提供專業治療方案", next: 4, score: 1 }         
+            { text: " 幫助對方「與痛苦和平共處」", next: 4, score: 5 },
+            { text: "定期確認對方狀況", next: 4, score: 3 },
+            { text: "想辦法轉移對方注意力 ", next: 4, score: 1 }         
         ],
         background: 'images/background3.jpg'
     },
    {
-        question: " 面對無法改變的絕境，你認為安慰應該：",
+        question: " 當自己需要安慰時，你希望？",
         options: [
-            { text: "轉移注意力到其他事物 ", next: -1, score: 3 },
-            { text: "幫助對方接受現實", next: -1, score: 1 },            
-            { text: "讓痛苦被看見，但不被淹沒", next: -1, score: 5 }
+            { text: "有人願意耐心傾聽 ", next: -1, score: 3 },
+            { text: "別人給我實際建議", next: -1, score: 1 },            
+            { text: "對方能「接住我的脆弱而不評判」", next: -1, score: 5 }
         ],
         background: 'images/background4.jpg'
     },
